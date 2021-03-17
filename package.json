@@ -1,0 +1,38 @@
+{
+  "name": "meal-recipes-web",
+  "version": "1.0.0",
+  "description": "submisson bffwd dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afaafa/meal-recipes-web.git"
+  },
+  "author": "Fathonah Zuchriyah afhazachra@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afaafa/meal-recipes-web/issues"
+  },
+  "homepage": "https://github.com/afaafa/meal-recipes-web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "whatwg-fetch": "^3.2.0"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.5"
+  }
+}
