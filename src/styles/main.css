@@ -1,16 +1,13 @@
-.hero {
-    display: flex;
-    align-items: center;
-    min-height: 380px;
-    width: 100%;
-    text-align: center;
-    background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 5, 0.5)), url("../public/images/cooking.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: Black !important
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+/*
 .hero_inner {
     margin: 0 auto;
     max-width: 800px;
@@ -27,4 +24,4 @@
     margin-top: 16px;
     font-weight: 300;
     font-size: 18px;
-}
+}*/
