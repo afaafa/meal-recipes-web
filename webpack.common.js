@@ -39,13 +39,11 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(jpe?g|png|gif|svg)$/i,
         use: [
-           {
-            loader: 'file-loader',
-            options: {},
-           }, 
-        ],
+          'file-loader?name=public/images/[name].[ext]',
+          'image-webpack-loader?bypassOnDebug'
+        ]
       },
       {
         // Apply rule for fonts files
