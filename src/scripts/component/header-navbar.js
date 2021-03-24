@@ -16,7 +16,7 @@ class HeaderNavbar extends HTMLElement {
             }
         </style>
 
-        <nav class="flex fixed mt-0 w-full p-4 bg-white shadow-md z-10">
+        <nav class="flex fixed mt-0 w-full p-4 bg-white opacity-90 shadow-md z-10">
             <a class="w-3/12 flex text-3xl" href="#">
                 <img src="${icon}" alt="icon logo" class="w-14">
                 <p class="pt-2 font-bold text-gray-700">CookApp</p>

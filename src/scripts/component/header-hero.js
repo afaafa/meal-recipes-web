@@ -10,17 +10,17 @@ class HeaderHero extends HTMLElement {
                 align-items: center;
                 min-height: 500px;
                 width: 100%;
-                background-position: left;
-                background-image: url("${image}");
-                background-size: 50%;
+                background-position: center;
+                background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 5, 0.5)), url("${image}");
+                background-size: cover;
                 background-repeat: no-repeat;
+                padding-top: 50px;
             }
         </style>
 
         <div class="hero">
-            <div class="text-center ml-72">
-                <h1 class="hero_title">Temukan Restoran Terbaikmu.</h1>
-                <p class="hero_tagline">Cari restoran dan tempat makan terbaik sesuai kota terdekat dalam satu apps!</p>
+            <div class="mx-auto p-5 text-white opacity-80">
+                <h1 class="font-bold text-3xl">Healthy recipes that are good for you.</h1>
             </div>
         </div>
         `
