@@ -19,8 +19,8 @@ class HeaderHero extends HTMLElement {
         </style>
 
         <div class="hero">
-            <div class="mx-auto p-5 text-white opacity-80">
-                <h1 class="font-bold text-3xl">Healthy recipes that are good for you.</h1>
+            <div class="mx-auto text-white opacity-80 px-2">
+                <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl text-center">Healthy recipes that are good for you.</h1>
             </div>
         </div>
         `

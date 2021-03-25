@@ -21,6 +21,8 @@ class MealList extends HTMLElement {
                 -moz-user-select: none;
                 -ms-user-select: none;
                 user-select: none;
+                margin: 0 auto;
+                text-align: center;
             }
         </style>
         `;
