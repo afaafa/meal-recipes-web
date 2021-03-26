@@ -12,21 +12,3 @@ body {
     @apply px-4 border-gray-400 border-l-2;
 }
 
-/*
-.hero_inner {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.hero_title {
-    font-weight: 500;
-    font-size: 28px;
-}
-
-.hero_tagline {
-    margin-top: 16px;
-    font-weight: 300;
-    font-size: 18px;
-}*/

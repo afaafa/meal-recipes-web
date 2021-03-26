@@ -11,6 +11,15 @@ class MealList extends HTMLElement {
         this.render();
     }
 
+    render(){
+        this.shadowDOM.innerHTML = "";
+        this._clubs.forEach(club => {
+            const mealItemElement = document.createElement("meal-item");
+            mealItemElement.club = club
+            this.shadowDOM.appendChild(mealItemElement);
+        })
+    }
+
     renderError(message){
         this.shadowDOM.innerHTML = `
         <style>
@@ -29,14 +38,7 @@ class MealList extends HTMLElement {
         this.shadowDOM.innerHTML += `<h2 class="placeholder">${message}</h2>`; 
     }
 
-    render(){
-        this.shadowDOM.innerHTML = "";
-        this._clubs.forEach(club => {
-            const mealItemElement = document.createElement("meal-item");
-            mealItemElement.club = club
-            this.shadowDOM.appendChild(mealItemElement);
-        })
-    }
+    
 }
 
 customElements.define("meal-list", MealList);
