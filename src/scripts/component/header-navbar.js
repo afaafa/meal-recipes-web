@@ -16,10 +16,10 @@ class HeaderNavbar extends HTMLElement {
             }
         </style>
 
-        <nav class="flex fixed mt-0 w-full p-4 bg-white opacity-90 shadow-md z-10">
-            <a class="w-3/12 flex text-3xl" href="#">
+        <nav class="flex fixed mt-0 w-full p-1 bg-white opacity-90 shadow-md z-10">
+            <a class="w-3/12 flex text-2xl text-center" href="#">
                 <img src="${icon}" alt="icon logo" class="w-14">
-                <p class="pt-2 font-bold text-gray-700">CookApp</p>
+                <h6 class="pt-2 font-bold text-gray-700">CookApp</h6>
             </a>
             <button type="button" class="bg-white mt-2 rounded-md absolute right-4 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 md:hidden">
                 <span class="sr-only">open main menu</span>
